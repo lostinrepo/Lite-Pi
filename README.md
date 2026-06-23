@@ -55,46 +55,6 @@ Lite-π consists of three key components:
 - ColonDB
 - CVC-300
 - ETIS-LaribPolypDB
-
-
-Lite-π consistently improves lightweight baselines and achieves superior generalization performance on unseen datasets while maintaining computational efficiency.
-
----
-
-## 📂 Repository Structure
-
-```text
-Lite-Pi/
-├── datasets/
-├── figures/
-├── models/
-├── foundation_models/
-├── train.py
-├── test.py
-├── utils/
-├── requirements.txt
-└── README.md
-```
-
----
-
-## ⚙️ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/username/Lite-Pi.git
-cd Lite-Pi
-```
-
-### Create Environment
-
-```bash
-conda create -n litepi python=3.10
-conda activate litepi
-pip install -r requirements.txt
-```
-
 ---
 
 ## 📁 Dataset Preparation
@@ -107,58 +67,8 @@ datasets/
 ├── CVC-300/
 └── ETIS-LaribPolypDB/
 ```
-
 ---
 
-## 🚀 Training
 
-```bash
-python train.py --model unet --dataset Kvasir --epochs 100
-```
 
----
-
-## 🧪 Testing
-
-```bash
-python test.py --model lite_pi --weights checkpoints/best.pth
-```
-
----
-
-## 📈 Performance
-
-| Method | Params (M) | Kvasir | ClinicDB | ColonDB | CVC-300 | ETIS |
-|--------|------------|---------|-----------|----------|----------|------|
-| U-Net | - | - | - | - | - | - |
-| U-Net++ | - | - | - | - | - | - |
-| PraNet | - | - | - | - | - | - |
-| Lite-π | - | **-** | **-** | **-** | **-** | **-** |
-
----
-
-## 📎 Citation
-
-```bibtex
-@article{litepi2026,
-  title={Induce to Empower: Improving Lightweight Baselines via Foundation Model Induction for Generalized Polyp Segmentation},
-  author={Anonymous Authors},
-  journal={Under Review},
-  year={2026}
-}
-```
-
----
-
-## 🙏 Acknowledgements
-
-This repository builds upon several excellent open-source projects, including:
-
-- Segment Anything Model (SAM)
-- DINOv2
-- OneFormer
-- U-Net
-- U-Net++
-- PraNet
-
-We thank the authors for making their code publicly available.
+## 🙏 If you like our work please cite....
