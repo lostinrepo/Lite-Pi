@@ -48,7 +48,7 @@ Lite-π consists of three key components:
 - CVC-ClinicDB
 
 <p align="center">
-  <img src="Qual_LIte" width="90%">
+  <img src="Qual_LIte.png" width="90%">
 </p>
 
 ### Unseen Datasets
@@ -56,9 +56,6 @@ Lite-π consists of three key components:
 - CVC-300
 - ETIS-LaribPolypDB
 
-<p align="center">
-  <img src="figures/LitePi-Unseen.png" width="90%">
-</p>
 
 Lite-π consistently improves lightweight baselines and achieves superior generalization performance on unseen datasets while maintaining computational efficiency.
 
