@@ -2,7 +2,7 @@
 ## Induce to Empower: Improving Lightweight Baselines via Foundation Model Induction for Generalized Polyp Segmentation
 
 <p align="center">
-  <img src="figures/LitePi-Framework.png" width="90%">
+  <img src="figures/LitePi_Model.png" width="90%">
 </p>
 
 <p align="center">
@@ -53,7 +53,7 @@ Lite-π consists of three key components:
 - CVC-ClinicDB
 
 <p align="center">
-  <img src="figures/LitePi-Seen.png" width="90%">
+  <img src="figures/Qual_LIte" width="90%">
 </p>
 
 ### Unseen Datasets
