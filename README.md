@@ -2,7 +2,7 @@
 ## Induce to Empower: Improving Lightweight Baselines via Foundation Model Induction for Generalized Polyp Segmentation
 
 <p align="center">
-  <img src="figures/LitePi_Model.png" width="90%">
+  <img src="LitePi_Model.png" width="90%">
 </p>
 
 <p align="center">
@@ -29,11 +29,6 @@ Lite-π consists of three key components:
 - **Reconstruction-Based Semantic Alignment:** Aligns lightweight features with the induced foundation model representations.
 - **Transformer-Based Fusion:** Preserves complementary semantic and boundary information while highlighting polyp-relevant representations.
 
-<p align="center">
-  <img src="figures/LitePi-Overview.png" width="95%">
-</p>
-
----
 
 ## ✨ Highlights
 
@@ -53,7 +48,7 @@ Lite-π consists of three key components:
 - CVC-ClinicDB
 
 <p align="center">
-  <img src="figures/Qual_LIte" width="90%">
+  <img src="Qual_LIte" width="90%">
 </p>
 
 ### Unseen Datasets
